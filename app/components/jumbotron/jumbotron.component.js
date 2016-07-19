@@ -9,19 +9,22 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var NavbarComponent = (function () {
-    function NavbarComponent() {
-        this.projectName = 'Angular 2 Basic App';
+var JumbotronComponent = (function () {
+    function JumbotronComponent() {
+        this.jbtHeading = 'Hello, world!';
+        this.jbtText = 'This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.';
+        this.jbtBtnText = 'Read More';
+        this.jbtBtnUrl = 'http://test.com';
     }
-    NavbarComponent = __decorate([
+    JumbotronComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
-            selector: 'navbar',
-            templateUrl: 'navbar.component.html'
+            selector: 'jumbotron',
+            templateUrl: 'jumbotron.component.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], NavbarComponent);
-    return NavbarComponent;
+    ], JumbotronComponent);
+    return JumbotronComponent;
 }());
-exports.NavbarComponent = NavbarComponent;
-//# sourceMappingURL=navbar.component.js.map
+exports.JumbotronComponent = JumbotronComponent;
+//# sourceMappingURL=jumbotron.component.js.map
